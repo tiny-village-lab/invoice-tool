@@ -1,0 +1,77 @@
+body {
+    -webkit-print-color-adjust: exact;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+}
+
+table {
+    margin: 10 0;
+}
+
+table tr td.c1 {
+    background-color: #8be9fd;
+    padding: 2 43;
+}
+table tr td.c2 {
+    background-color: #50fa7b;
+    padding: 2 43;
+}
+table tr td.c3 {
+    background-color: #ffb86c;
+    padding: 2 43;
+}
+table tr td.c4 {
+    background-color: #ff79c6;
+    padding: 2 43;
+}
+table tr td.c5 {
+    background-color: #bd93f9;
+    padding: 2 43;
+}
+table tr td.c6 {
+    background-color: #ff5555;
+    padding: 2 43;
+}
+
+h1, h2, h3, h4 {
+    margin: 5 0;
+    padding: 5 0;
+}
+
+table tr th {
+    text-align: left;
+    padding: 2 20;
+    vertical-align: top;
+}
+
+td.text-right {
+    text-align: right;
+}
+
+table tr td {
+    padding: 2 20;
+    vertical-align: top;
+}
+
+table tr.strong td {
+    background-color: #f0f0f0;
+    padding: 20;
+    font-weight: bold;
+}
+
+.bg-inverse {
+    background-color: #1e1f28;
+    color: #f0f0f0;
+    print-color-adjust: exact; 
+    -webkit-print-color-adjust: exact;
+}
+
+.invoice table tr th {
+    background-color: #1e1f28;
+    color: #f0f0f0;
+    vertical-align: middle;
+}
+
+.invoice table tr {
+    background-color: #f0f0f0 !important;
+}
