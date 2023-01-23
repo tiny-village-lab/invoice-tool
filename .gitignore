@@ -2,7 +2,7 @@
 /public/build
 /public/hot
 /public/storage
-/public/print
+/public/printed
 /storage/*.key
 /vendor
 .env
